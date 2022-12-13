@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Piazzolla', serif;
+}
+body{
+    height: auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    text-transform:bolder;
+    display: inline-block;
+}
+:root{
+    --main-bg:#1e272e;
+    --main-color:#0097e6;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.row{
+   margin: 0; 
+}
+
+.navbar{
+   position: relative;
+    color: black;
+    /* background-color: var(--main-bg); */
+    padding: 2rem 0;
+     border-radius: 5px;
+}
+.navbar-style {
+  background:black;
+  background-color:white;
+  /* box-shadow: 2px 4px 13px 1px rgba(8, 8,8,0.04); */
+}
+#logo {
+  /* display: initial; */
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  /* text-transform: capitalize; */
+  color:var(--main-color);
+  text-shadow: 2px 5px 3px rgba(0,0, 0, 0.06);
+}
+.navbar-brand{
+    margin-left: 3rem;
+}
+.navbar li{
+  margin-left: 4rem;
+}
+.navbar a {
+    color: black;
+    font-size: 1.8rem;
+    left: 1%;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+.navbar-toggler{
+    background-color: gray;
+}
+.dropdown-menu{
+      background: var(--main-bg);
+}
+
+.Thecorevalue{
+  background-color: #004000;
+  box-shadow: #1e272e;
+  width: 100%;
+  margin-top: 40px;
+  color:white;
+  
+}
+.Thecorevalue .card{
+  color:black;
+  font-size:1px;
+}
+
+.Vission-Mission{
+  background-color: darkgray;
+  height: 650px;
+  margin-top: 100px;
+  box-shadow: 5px 6px 15px 2px rgba(8, 8,8,0.04);
+}
+
+.Vission-Mission .card{
+  margin-top: 25px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 15px 5px rgba(8,8,8,0.04);
+}
+.Vission-Mission .card h1 {
+  margin-left: 25px;
+}
+
+.Vission-Mission .card img {
+  margin-left: 75px;
+}
+.Vission-Mission .card p {
+  margin: 25px;
+}
+.product-style {
+  position: relative;
+  margin-top: 50px;
+}
+.product-style a{
+  color: black;
+  justify-content: space-between;
+  text-decoration:none;
+}
+
+.product-style .SolarProducts{
+  background-color:dimgrey;
+  height:450px;
+  color: black;
+  margin-top: 50px;
+  justify-items: center;
+}
+.product-style .SolarProducts .card{
+  margin-top: 50px;
+}
+.product-style .SolarProducts .card  img{
+  height: 100px;
+  width:100px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+#carouselExampleControls{
+  margin-top: 50px;
+  height:400px;
+  background-image:url("../image/Products/Background_Website.jpg") ;
+  position: relative;
+  display: block;
+}
+
+#carouselExampleControls .carousel-item {
+  justify-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#carouselExampleControls .carousel-control-prev{
+  margin-left: 25%;
+}
+#carouselExampleControls .carousel-control-next {
+  margin-right: 15%;
+}
+
+.services-style{
+  margin-top:1000px;
+  position: relative;
+}
+  form{
+    display: block;
+  }
+  footer{
+    margin-top: 50px;
+    background: black;
+    width: auto;
+    height: auto;
+    color:#fff;
+}
+footer h1{
+  margin-top: 50px;
+  display: initial;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize; 
+  color:var(--main-color);
+  text-shadow: 2px 5px 3px rgba(0,0, 0, 0.06);
+}
+footer h2{
+    margin-left: 20px;
+    color: #fff;
+}
+footer p a {
+    color: #fff;
+}
+footer .card{
+    background: black;
+    color: #fff;
+    height: 55px;
+}
+
+.last{
+    position: relative;
+    margin-left:50%;
+}
+
+  
+  
